@@ -13,6 +13,7 @@ public class FirstTest
 	  driver.get("https://www.google.com");
 	  System.out.println(driver.getTitle());
 	  System.out.println("Running on branch: feature/login-test");
+	  System.out.println("This change will be pulled by the clone");
 	  driver.quit();
   }
 
