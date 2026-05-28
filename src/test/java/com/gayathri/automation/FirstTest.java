@@ -14,7 +14,9 @@ public class FirstTest
 	  System.out.println(driver.getTitle());
 	  System.out.println("Running on branch: feature/login-test");
 	  System.out.println("This change will be pulled by the clone");
+	  System.out.println("Testing Pull Request workflow");
 	  driver.quit();
   }
+ 
 
 }
